@@ -14,6 +14,7 @@ import './homeStyle.css';
 function Home(params) {
     const [userName,setUserName]=useState("");
 const [reason,setReason]=useState("");
+console.log("It is home page");
 // const add = () =>{
 //   console.log(userName)
 //   Axios.post("http://localhost:3001/add", {

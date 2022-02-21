@@ -20,7 +20,7 @@ function App() {
       
   // }
 
-
+  console.log("It is home page");
   return (
     <Router>     
      <Routes>
