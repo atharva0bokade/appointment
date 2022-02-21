@@ -9,7 +9,7 @@ const [reason,setReason]=useState("");
 const [email,setEmail]=useState("");
 const add = () =>{
   console.log(userName)
-  Axios.post("http://localhost:3001/add", {
+  Axios.post("https://appointment0backend.herokuapp.com/add", {
     userName : userName,
     reason : reason,
     email : email,

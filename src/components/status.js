@@ -17,7 +17,7 @@ function Status(props) {
   
   useEffect(()=>{
    
-    Axios.get('http://localhost:3001/all').then((res)=>{
+    Axios.get('https://appointment0backend.herokuapp.com/all').then((res)=>{
       setRequest1_list(res.data);
       console.log(res.data);
       
