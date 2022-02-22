@@ -20,10 +20,10 @@ function App() {
       
   // }
 
-  console.log("It is home page")
+  console.log("It is updated home page")
   return (
     <>
-    <Home/>
+    
          <Router>     
      <Routes>
     <Route path="/info1" element = {<Info1/>}/>
@@ -31,7 +31,7 @@ function App() {
     <Route path="/info3" element = {<Info3/>}/>
     <Route path="/info4" element = {<Info4/>}/>
     <Route path="/info5" element = {<Info5/>}/>
-    {/* <Route path="/" element = {<Home/>}/> */}
+    <Route path="/" element = {<Home/>}/>
     <Route path="/status" element = {<Status/>}/>
     </Routes>
     </Router>
