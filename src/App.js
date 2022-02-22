@@ -31,7 +31,7 @@ function App() {
     <Route path="/info3" element = {<Info3/>}/>
     <Route path="/info4" element = {<Info4/>}/>
     <Route path="/info5" element = {<Info5/>}/>
-    <Route path="/" element = {<Home/>}/>
+    {/* <Route path="/" element = {<Home/>}/> */}
     <Route path="/status" element = {<Status/>}/>
     </Routes>
     </Router>
