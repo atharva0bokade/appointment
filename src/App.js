@@ -20,11 +20,13 @@ function App() {
       
   // }
 
-  console.log("It is home page");
+  console.log("It is home page")
   return (
-    <Router>     
+    <>
+    <Home/>
+         <Router>     
      <Routes>
-    <Route path="/https://atharva0bokade.github.io/appointment/info1" element = {<Info1/>}/>
+    <Route path="/info1" element = {<Info1/>}/>
     <Route path="/info2" element = {<Info2/>}/>
     <Route path="/info3" element = {<Info3/>}/>
     <Route path="/info4" element = {<Info4/>}/>
@@ -33,6 +35,7 @@ function App() {
     <Route path="/status" element = {<Status/>}/>
     </Routes>
     </Router>
+    </>
 
     
       
